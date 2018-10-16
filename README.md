@@ -52,6 +52,7 @@ Run example on face-recognition:
     const win = new fr.ImageWindow()
     win.setImage(fr.tileImages(faces))
     fr.hitEnterToContinue()
-```js
+    
+```
     
 Run example on face-recognition:
