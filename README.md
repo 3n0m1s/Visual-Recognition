@@ -14,6 +14,7 @@ Prerequisites:
     OPENCV3.4 - https://sourceforge.net/projects/opencvlibrary/files/latest/download
     
 Setting up Enviroment variable on system global variable enviroment:
+
     1- Copy openCV3.4 in C:/opencv
     2- Set variable ENVIROMENT  
         name: OPENCV_INCLUDE_DIR path: C:\opencv\build\include
