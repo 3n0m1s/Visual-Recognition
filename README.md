@@ -53,5 +53,4 @@ Run example:
     win.setImage(fr.tileImages(faces))
     fr.hitEnterToContinue()
 
-    '''
     
