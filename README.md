@@ -101,7 +101,7 @@ Extended example using util.js and commons from webcam
 
     runVideoFaceDetection(webcamPort, detectFaces);
 ```
-Extended example using util.js and commons from vedie file
+Extended example using util.js and commons from video file
 
 ```js
     const {
