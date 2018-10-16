@@ -2,7 +2,7 @@ const path = require('path');
 const cv = require('opencv4nodejs');
 exports.cv = cv;
 
-const dataPath = path.resolve(__dirname, '../data');
+const dataPath = path.resolve(__dirname, './data');
 exports.dataPath = dataPath;
 exports.getDataFilePath = fileName => path.resolve(dataPath, fileName);
 
