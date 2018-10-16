@@ -7,7 +7,10 @@ Install windows build tool from an administrative shell
     npm install --global windows-build-tools
          
 Install the package 
-[require GIT - https://gitforwindows.org/]
+
+Prerequisites:
+    GIT - https://gitforwindows.org/
+    CMAKE - https://cmake.org/download/
 
     npm install face-recognition
     
