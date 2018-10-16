@@ -35,7 +35,7 @@ After that you can install the nodes module as you know:
     npm install face-recognition
     npm install opencv4nodejs
 
-Run example:
+Run example on face-recognition:
 
 ```js
 
@@ -52,5 +52,6 @@ Run example:
     const win = new fr.ImageWindow()
     win.setImage(fr.tileImages(faces))
     fr.hitEnterToContinue()
-
+```js
     
+Run example on face-recognition:
