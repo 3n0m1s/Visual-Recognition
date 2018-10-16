@@ -15,11 +15,14 @@ Prerequisites:
     
 Setting up Enviroment variable on system global variable enviroment:
     1- Copy openCV3.4 in C:/opencv
-    2- Set variable 
-                
-    name: OPENCV_INCLUDE_DIR path: C:\opencv\build\include
-    name: OPENCV_LIB_DIR path: C:\opencv\build\x64\vc15\lib
-  
+    2- Set variable ENVIROMENT  
+        name: OPENCV_INCLUDE_DIR path: C:\opencv\build\include
+        name: OPENCV_LIB_DIR path: C:\opencv\build\x64\vc15\lib
+    3- Set SYSTEM VARIABLE
+        name: OPENCV_BIN_DIR
+        path: C:\opencv\build\x64\vc15\bin
+    4- Add to system PATH
+        Path: add to the end -----> %OPENCV_BIN_DIR%
 After that you can install the nodes module as you know:
 
     npm install face-recognition
