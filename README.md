@@ -25,9 +25,15 @@ Setting up Enviroment variable & system variable :
         path: C:\opencv\build\x64\vc15\bin
     4- Add to system PATH
         Path: add to the end -----> %OPENCV_BIN_DIR%
+        
+AutoBuild Opencv4nodejs:
+
+    npm install opencv-build            
+        
 After that you can install the nodes module as you know:
 
     npm install face-recognition
     npm install opencv4nodejs
-    
+
+
     
