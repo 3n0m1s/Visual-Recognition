@@ -55,4 +55,4 @@ Run example on face-recognition:
     
 ```
     
-Run example on face-recognition:
+Run example on opencv4nodejs:
