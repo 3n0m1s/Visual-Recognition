@@ -35,5 +35,25 @@ After that you can install the nodes module as you know:
     npm install face-recognition
     npm install opencv4nodejs
 
+Run example:
 
+    const fr = require('face-recognition')
+
+    '''js
+
+    fr.winKillProcessOnExit()
+
+    const detector = fr.FaceDetector()
+
+    const img = fr.loadImage('./data/got.jpg')
+
+    console.log('detecting faces')
+    const faceSize = 150
+    const faces = detector.detectFaces(img, faceSize)
+
+    const win = new fr.ImageWindow()
+    win.setImage(fr.tileImages(faces))
+    fr.hitEnterToContinue()
+
+    '''
     
