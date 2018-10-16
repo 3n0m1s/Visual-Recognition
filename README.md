@@ -79,7 +79,7 @@ Run example with opencv4nodejs:
     cv.waitKey()
 ```
 
-Using util.js
+Extended example using util.js and commons
 
 ```js
     const { cv } = require('./utils');
