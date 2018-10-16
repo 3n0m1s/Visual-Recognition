@@ -16,7 +16,7 @@ Prerequisites:
 Setting up Enviroment variable on system global variable enviroment:
 
     1- Copy openCV3.4 in C:/opencv
-    2- Set variable ENVIROMENT  
+    2- Set ENVIROMENT VARIABLE   
         name: OPENCV_INCLUDE_DIR path: C:\opencv\build\include
         name: OPENCV_LIB_DIR path: C:\opencv\build\x64\vc15\lib
     3- Set SYSTEM VARIABLE
