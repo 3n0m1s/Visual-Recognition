@@ -2,9 +2,9 @@ const {
   cv,
   grabFrames,
   drawBlueRect
-} = require('../utils');
-const loadFacenet = require('../dnn/loadFacenet');
-const { extractResults } = require('../dnn/ssdUtils');
+} = require('./utils');
+const loadFacenet = require('./dnn/loadFacenet');
+const { extractResults } = require('./dnn/ssdUtils');
 
 exports.runVideoFaceDetection = (src, detectFaces) => grabFrames(src, 1, (frame) => {
   console.time('detection time');
