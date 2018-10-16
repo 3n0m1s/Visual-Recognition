@@ -37,14 +37,11 @@ After that you can install the nodes module as you know:
 
 Run example:
 
+    ```js
     const fr = require('face-recognition')
 
-```js
-
     fr.winKillProcessOnExit()
-
     const detector = fr.FaceDetector()
-
     const img = fr.loadImage('./data/got.jpg')
 
     console.log('detecting faces')
@@ -55,5 +52,5 @@ Run example:
     win.setImage(fr.tileImages(faces))
     fr.hitEnterToContinue()
 
-'''
+    '''
     
