@@ -9,11 +9,12 @@ Install windows build tool from an administrative shell
 Install GLOBAL ENVIROMENT TO USE [face-recognition & opencv4nodejs]:
 
 Prerequisites:
+    
     GIT - https://gitforwindows.org/
     CMAKE - https://cmake.org/download/
     OPENCV3.4 - https://sourceforge.net/projects/opencvlibrary/files/latest/download
     
-Setting up Enviroment variable on system global variable enviroment:
+Setting up Enviroment variable & system variable :
 
     1- Copy openCV3.4 in C:/opencv
     2- Set ENVIROMENT VARIABLE   
