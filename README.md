@@ -37,7 +37,8 @@ After that you can install the nodes module as you know:
 
 Run example:
 
-    ```js
+```js
+
     const fr = require('face-recognition')
 
     fr.winKillProcessOnExit()
