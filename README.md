@@ -39,7 +39,7 @@ Run example:
 
     const fr = require('face-recognition')
 
-    '''js
+```js
 
     fr.winKillProcessOnExit()
 
@@ -55,5 +55,5 @@ Run example:
     win.setImage(fr.tileImages(faces))
     fr.hitEnterToContinue()
 
-    '''
+'''
     
