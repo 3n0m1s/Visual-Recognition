@@ -63,7 +63,7 @@ Run example with opencv4nodejs:
 
     const detector = fr.FaceDetector()
 
-    const mat = cv.imread('./../data/Lenna.png')
+    const mat = cv.imread('./data/Lenna.png')
     const cvImg = fr.CvImage(mat)
 
     console.log('detecting faces')
