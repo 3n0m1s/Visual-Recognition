@@ -56,3 +56,26 @@ Run example on face-recognition:
 ```
     
 Run example on opencv4nodejs:
+
+```js
+    const cv = require('opencv4nodejs')
+    const fr = require('face-recognition').withCv(cv)
+
+    fr.winKillProcessOnExit()
+
+    const detector = fr.FaceDetector()
+
+    const mat = cv.imread('./../data/Lenna.png')
+    const cvImg = fr.CvImage(mat)
+
+    console.log('detecting faces')
+    const faceRects =  detector.locateFaces(cvImg)
+
+    const faces = faceRects
+      .map(mmodRect => fr.toCvRect(mmodRect.rect))
+      .map(cvRect => mat.getRegion(cvRect).copy())
+
+    faces.forEach((face, i) => {
+      cv.imshow(`face_${i}`, face)
+    })
+    cv.waitKey()
